@@ -1,0 +1,8 @@
+<section class="page-hero"><div class="container"><span class="eyebrow">Start a project</span><h1>Tell us what you need.</h1><p>We read every message and reply as soon as we can.</p></div></section>
+<section class="content-section"><div class="container contact-layout">
+<div><span class="eyebrow">Project inquiry</span><div class="info-list"><div class="info-item"><i data-lucide="mail"></i><div><strong>Email us</strong><p>Use the form to describe your needs.</p></div></div><div class="info-item"><i data-lucide="clock-3"></i><div><strong>Clear next steps</strong><p>We confirm scope, timing and requirements.</p></div></div></div></div>
+<form class="form-card" method="post" action="<?= $this->escape(appUrl('/contact')) ?>"><input type="hidden" name="csrf" value="<?= $_SESSION['csrf'] ?? '' ?>">
+<div class="form-grid"><div class="field"><label for="name">Full name</label><input id="name" name="name" required></div><div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" required></div></div>
+<div class="form-grid"><div class="field"><label for="phone">Phone or WhatsApp</label><input id="phone" name="phone"></div><div class="field"><label for="service">Service</label><select id="service" name="service"><option>Web Development</option><option>App Development</option><option>Digital Marketing</option><option>Graphic Design</option><option>Video Editing</option><option>Corporate Training</option><option>Other</option></select></div></div>
+<div class="field"><label for="message">Your message</label><textarea id="message" name="message" required></textarea></div><button class="button" type="submit">Send inquiry <i data-lucide="send"></i></button></form>
+</div></section>

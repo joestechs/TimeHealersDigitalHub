@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Serve public assets from the internal public directory.
+RewriteRule ^(assets|uploads)/(.*)$ public/$1/$2 [L]
+
+# Send all application routes to the public front controller.
+RewriteRule ^$ public/index.php [L,QSA]
+RewriteRule ^(.+)$ public/index.php [L,QSA]

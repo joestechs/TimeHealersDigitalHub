@@ -1,0 +1,1 @@
+<section class="page-hero"><div class="container"><span class="eyebrow">404</span><h1>That page could not be found.</h1><a class="button button-light" href="<?= $this->escape(appUrl('/')) ?>">Return home</a></div></section>

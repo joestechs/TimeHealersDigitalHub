@@ -1,0 +1,2 @@
+<section class="page-hero"><div class="container"><span class="eyebrow">Customer dashboard</span><h1>Your downloads.</h1><p>Files for eligible purchases will be listed here.</p></div></section>
+<section class="content-section"><div class="container"><div class="empty-state"><i data-lucide="download"></i><h2>Downloads are not available yet</h2><p>Secure file delivery will appear here when a product download has been assigned to your account.</p><a class="button button-ghost" href="<?= $this->escape(appUrl('/account')) ?>">Back to your dashboard</a></div></div></section>

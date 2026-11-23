@@ -1,0 +1,2 @@
+<section class="page-hero"><div class="container"><span class="eyebrow">Secure checkout</span><h1>Complete your purchase.</h1></div></section>
+<section class="content-section"><div class="container"><div class="empty-state"><i data-lucide="credit-card"></i><h2>PayPal configuration required</h2><p>Direct purchases will be enabled after the PayPal credentials and webhook configuration are supplied.</p></div></div></section>
